@@ -124,7 +124,7 @@ def generate_sudoku(N: int) -> tp.List[tp.List[str]]:
 
     grid = [["."] * 9 for _ in range(9)]
     full_grid = solve(grid)
-
+# Моя лабораторная работа 2
     if full_grid is None:
         return grid
 
